@@ -1,0 +1,9 @@
+\begin{frame}
+\maketitle
+\end{frame}
+
+\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+\put(\LenToUnit{0.925\paperwidth},\LenToUnit{0.91\paperheight}){#1}}}
+\AddToShipoutPictureFG{
+  \AtPagemyUpperLeft{{\includegraphics[width=1.cm,keepaspectratio]{logo.png}}}
+}

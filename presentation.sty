@@ -1,0 +1,53 @@
+\definecolor{fom}{RGB}{0,153,139}
+
+\definecolor{hellgelb}{rgb}{1,1,0.8}
+\definecolor{lightgelb}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\definecolor{smokyblack}{rgb}{0.06, 0.05, 0.03}
+\definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+\definecolor{desert}{rgb}{0.76, 0.6, 0.42}
+
+\lstset{%
+    float=hbp,%
+    basicstyle=\ttfamily\footnotesize, %
+    identifierstyle=\color{colIdentifier}, %
+    keywordstyle=\color{colKeys}, %
+    stringstyle=\color{colString}, %
+    commentstyle=\color{colComments}, %
+    literate={fl}{{f{}l}}2,%
+    columns=flexible, %
+    tabsize=2, %
+    frame=single, %
+    upquote=true,%
+    extendedchars=true, %
+    showspaces=false, %
+    showstringspaces=false, %
+    numbers=left, %
+    numberstyle=\tiny, %
+    breaklines=true, %
+    backgroundcolor=\color{hellgelb}, %
+    breakautoindent=true, %
+    captionpos=b%
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[text line]{%
+  \color{gray}
+  \parbox{0.8\linewidth}{
+    \vspace*{-8pt}\insertshorttitle~(\insertshortauthor)
+  }
+  \hfill%
+  \parbox{0.15\linewidth}{
+    \vspace*{-8pt}\raggedleft\insertpagenumber
+  }
+}
+
+
+\setbeamercolor{title}{fg=fom}
+\setbeamercolor{frametitle}{fg=fom}
+\setbeamercolor{structure}{fg=fom}
+
+\setbeamercolor{normal text}{fg=dimgray}
