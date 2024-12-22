@@ -26,5 +26,5 @@ Die Metadaten lassen sich in [`skripte/meta.tex`](./skripte/meta.tex) anpassen. 
 
 ## Textinhalte
 
-Die Kapitelstruktur befindet sich in [`slides.tex`](.slides.tex) und lässt sich nach belieben anpassen. 
+Die Kapitelstruktur befindet sich in [`kapitel.tex`](.kapitel.tex) und lässt sich nach belieben anpassen. 
 Die Struktur ist aktuell so angepasst, dass inhaltliche Slides in [`slides/inhalt.tex`](./slides/inhalt.tex) zu finden sind.
