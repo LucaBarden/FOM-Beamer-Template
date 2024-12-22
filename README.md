@@ -1,10 +1,10 @@
 # FOM Presentation Latex Template
 
-Template for a simple beamer presentation styled with the FOM colors and its logo. Including support for bibtex
+Geupdatete und Refactored Version von https://github.com/Flipez/latex-fom-presentation FOM Template
 
-## Usage
+## Benutzung
 
-Your need to compile the presentation multiple times in order to get correct bibtex cites and page numbers.
+Beim Manuellen kompilieren muss mehrmals kompiliert werden aufgrund von bibtex
 
 ```
 pdflatex main.tex
@@ -13,9 +13,18 @@ pdflatex main.tex
 pdflatex main.tex
 ```
 
-## Example Presentation
+## Zitierstyle
 
-![](images/output-0.png)
-![](images/output-1.png)
-![](images/output-2.png)
-![](images/output-3.png)
+Die Zitiereinstellungen sind in der Datei [`skripte/bibtex-config.tex`](./skripte/bibtex-config.tex) hinterlegt.
+
+Der Zitierstil ist an IEEE angepasst und entspricht dem offiziellen IEEE Styleguide.
+
+## Metadaten
+
+Die Metadaten lassen sich in [`skripte/meta.tex`](./skripte/meta.tex) anpassen. Dort sind Titel, Autor und Hochschule hinterlegt.
+
+
+## Textinhalte
+
+Die Kapitelstruktur befindet sich in [`slides.tex`](.slides.tex) und lässt sich nach belieben anpassen. 
+Die Struktur ist aktuell so angepasst, dass inhaltliche Slides in [`slides/inhalt.tex`](./slides/inhalt.tex) zu finden sind.

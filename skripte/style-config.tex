@@ -1,0 +1,21 @@
+\usepackage{hyphsubst}
+\HyphSubstIfExists{ngerman-x-latest}{%
+\HyphSubstLet{ngerman}{ngerman-x-latest}}{}
+\usepackage{microtype}
+\usepackage[%
+left = \glqq,%
+right = \grqq,%
+leftsub = \glq,%
+rightsub = \grq%
+]{dirtytalk}
+\hyphenpenalty=5000 % Minimiert die Trennung
+\exhyphenpenalty=5000 % Minimiert die Trennung am Zeilenende
+
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0.8em plus 0.5em minus 0.3em}
+\sloppy					%Abstände variieren
